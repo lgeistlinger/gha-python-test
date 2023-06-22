@@ -1,0 +1,20 @@
+title: "ISMB.OSCA"
+
+url: https://bioconductor.github.io/ISMB.OSCA
+
+template:
+  params:
+    bootswatch: flatly
+
+navbar:
+  title: ~
+  type: default
+  left:
+    - text: Vignettes
+      menu:
+      - text: Working with large data
+        href: articles/large_data.html  
+
+  right:
+   - icon: fa-github
+     href: https://github.com/Bioconductor/ISMB.OSCA

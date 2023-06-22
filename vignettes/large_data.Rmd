@@ -1,0 +1,37 @@
+---
+title: Working with large data
+vignette: >
+  % \VignetteIndexEntry{Working with large data}
+  % \VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+output:
+  html_document:
+    mathjax: null   
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+gc()
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+library(BiocStyle)
+```
+
+## Motivation 
+
+Advances in scRNA-seq technologies have increased the number of cells that can 
+be assayed in routine experiments.
+Public databases such as [GEO](https://www.ncbi.nlm.nih.gov/geo/) are continually
+expanding with more scRNA-seq studies, 
+while large-scale projects such as the
+[Human Cell Atlas](https://www.humancellatlas.org/) are expected to generate
+data for billions of cells.
+For effective data analysis, the computational methods need to scale with the
+increasing size of scRNA-seq data sets.
+This section discusses how we can use various aspects of the Bioconductor 
+ecosystem to tune our analysis pipelines for greater speed and efficiency.
+
+## Interoperability with popular single-cell analysis ecosytems
+
+```{r}
+library(zellkonverter)
+```
