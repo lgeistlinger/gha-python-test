@@ -19,7 +19,7 @@ RoxygenNote: 7.1.0
 Depends: 
     R (>= 4.3.0)
 Imports:
-    zellkonverter
+    Seurat
 Suggests: 
     BiocStyle,
     knitr,
