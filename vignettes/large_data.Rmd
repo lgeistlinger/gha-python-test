@@ -32,6 +32,7 @@ ecosystem to tune our analysis pipelines for greater speed and efficiency.
 
 ## Interoperability with popular single-cell analysis ecosytems
 
-```{r}
+```{r message = FALSE}
 library(Seurat)
+library(SeuratData)
 ```

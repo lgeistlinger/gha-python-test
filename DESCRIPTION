@@ -19,12 +19,15 @@ RoxygenNote: 7.1.0
 Depends: 
     R (>= 4.3.0)
 Imports:
-    Seurat
+    Seurat,
+    SeuratData
 Suggests: 
     BiocStyle,
     knitr,
     rmarkdown,
     pkgdown
+Remotes:
+    lgeistlinger/SeuratData
 URL: https://bioconductor.github.io/ISMB.OSCA/
 BugReports: https://github.com/Bioconductor/ISMB.OSCA/issues/new/choose
 VignetteBuilder: knitr
